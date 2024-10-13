@@ -1,4 +1,4 @@
-![python](./Imgs/python.svg)
+<img src="./Imgs/python.svg" alt="Python" width="200"/>
 
 # Aprender Python
 
