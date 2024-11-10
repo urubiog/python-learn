@@ -17,12 +17,14 @@ a = 5  # 0101 in binary
 b = 3  # 0011 in binary
 
 result_and = a & b  # 0001 -> 1 in decimal
-result_or = a | b   # 0111 -> 7 in decimal
+result_or = a | b  # 0111 -> 7 in decimal
 result_xor = a ^ b  # 0110 -> 6 in decimal
 
 # Bitwise NOT
 c = 5  # 0101 in binary
-result_not = ~c  # -(5+1) -> -6 (inverts bits and adds 1 in two's complement representation)
+result_not = (
+    ~c
+)  # -(5+1) -> -6 (inverts bits and adds 1 in two's complement representation)
 
 # Bitwise Shifts
 d = 5  # 0101 in binary
@@ -31,7 +33,6 @@ result_right_shift = d >> 1  # 0010 -> 2 in decimal
 
 # [Exercise] What this will print?
 
-print((a & b) | ((~a ^ b) << 2))  
+print((a & b) | ((~a ^ b) << 2))
 
 # out:
-

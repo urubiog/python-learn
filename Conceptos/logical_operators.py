@@ -30,4 +30,3 @@ result_not2 = not (a > b)  # not False -> True
 print((a < b) and not (b > c or c == 15))
 
 # out:
-

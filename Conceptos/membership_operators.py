@@ -24,7 +24,6 @@ result_check = "d" in string_example  # True -> 'd' is in "abcdef"
 # [Exercise] What this will print?
 
 sentence = "The quick brown fox jumps over the lazy dog"
-print("fox" in sentence and "cat" not in sentence)  
+print("fox" in sentence and "cat" not in sentence)
 
 # out:
-

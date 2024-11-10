@@ -45,5 +45,3 @@ print(result)
 # Answer:
 # [ ] Greater
 # [ ] Lesser
-
-

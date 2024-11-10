@@ -11,24 +11,21 @@ print("Derivative types time!")
 # - Items are accessed by their index, starting from 0.
 
 my_list = [1, 2, 3, 4, 5]
-print(my_list[3]) # 4
+print(my_list[3])  # 4
 my_list[3] = 66
-print(my_list) # [1, 2, 3, 66, 5]
+print(my_list)  # [1, 2, 3, 66, 5]
 
 # Another way to create a list:
 list_from_tuple = list((1, 2, 3, 4))  # Creates a list from a tuple
 print(list_from_tuple)  # [1, 2, 3, 4]
 
-# You can even make lists of lists 
-another_list = [[1, 2, 3], [4, 5, 6]] # matrix
-another_list = [
-    [1, 2, 3], # first row
-    [4, 5, 6]  # second row
-]
+# You can even make lists of lists
+another_list = [[1, 2, 3], [4, 5, 6]]  # matrix
+another_list = [[1, 2, 3], [4, 5, 6]]  # first row  # second row
 
-print(another_list[0][1]) # 2 -> another_list[row][col]
+print(another_list[0][1])  # 2 -> another_list[row][col]
 
-# It can store any type 
+# It can store any type
 lst = [12, 12.3542, [12, 21], (12,), None, False, True]
 print(lst)
 
@@ -63,7 +60,9 @@ my_dict = {"name": "Alice", "age": 25}
 print(my_dict)
 
 # Another way to create a dictionary:
-dict_from_args = dict(name="Macumba", age=25)  # Creates a dictionary from keyword arguments
+dict_from_args = dict(
+    name="Macumba", age=25
+)  # Creates a dictionary from keyword arguments
 print(dict_from_args)  # {'name': 'Macumba', 'age': 25}
 
 # [Exercise] What will happen if the following code is executed?
@@ -77,4 +76,3 @@ t[1][1] = 6
 # Answer:
 # [ ] An error will be raised
 # [ ] It will change the value inside t
-

@@ -11,9 +11,9 @@ Bienvenido a **Learn Python**, un repositorio dedicado a explorar y dominar los 
 
 En este repositorio podrás encontrar diferentes secciones. Entre estas se esconde la mágia para aprender Python y así formarte como un verdadero profesional.
 
-### Teoría 🎓
+### Conceptos 🎓
 
-En esta sección se encuentran los fundamentos teóricos de Python, comenzando desde los principios básicos y avanzando hacia temas más complejos. Aquí podrá aprender sobre estructuras de datos, control de flujo, funciones, clases y módulos, entre otros temas cruciales. Cada concepto está acompañado de una explicación detallada y ejemplos simples que ilustran su uso en situaciones reales.
+En esta sección se encuentran los fundamentos teóricos de Python manifestados como módulos prácticos, comenzando desde los principios básicos y avanzando hacia temas más complejos. Aquí podrá aprender sobre estructuras de datos, control de flujo, funciones, clases y módulos, entre otros temas cruciales. Cada concepto está acompañado de una explicación detallada y ejemplos simples que ilustran su uso en situaciones reales.
 
 ### Ejercicios ✏️
 
@@ -26,6 +26,10 @@ Aquí encontrará pequeños fragmentos de código, conocidos como componentes, q
 ### Librerías 📚
 
 Esta sección está dedicada a presentar algunas de las librerías más populares y útiles en Python, tales como numpy, pandas, matplotlib, entre otras. Cada librería incluye una descripción general y ejemplos básicos de cómo utilizar sus funciones principales.
+
+### Módulos 📦
+
+En esta sección encontrarás módulos adicionales para expandir tus conocimientos en diversas áreas, como criptografía, bases de datos, optimización, redes, desarrollo web, procesamiento de imágenes, automatización, análisis de datos y más. Cada módulo te proporcionará herramientas útiles y ejemplos prácticos para aplicar en proyectos reales.
 
 ### Herramientas 🔨
 

@@ -2,9 +2,9 @@
 
 print("More math!")
 
-# == -> equallity 
+# == -> equallity
 # != -> inequality
-# <  -> less than 
+# <  -> less than
 # >  -> greater than
 # <= -> less or equal to
 # >= -> greater or equal to
@@ -27,8 +27,8 @@ less_or_equal = a <= b  # True -> a is less than or equal to b
 greater_or_equal = a >= b  # False -> a is not greater than or equal to b
 
 # [Exercise 1] Predict the result of the following comparisons:
-print(3 == 3)  # out: 
-print(4 != 5)  # out: 
+print(3 == 3)  # out:
+print(4 != 5)  # out:
 print(10 < 2)  # out:
 print(7 > 6)  # out:
 print(5 <= 5)  # out:

@@ -1,0 +1,13 @@
+- Criptografía: `cryptography`, `hashlib`, `pycryptodome`
+- Databases: `sqlite3`, `pymongo`, `SQLAlchemy`
+- Optimización: `cProfile`, **`threading` ,** `multiprocessing`
+- Redes: `socket`, `requests`, `urllib`
+- Web: `django`, `flask`, `fastapi`, `pickle`
+- Web Scraping: `beautifulsoup4`, `lxml`
+- Image processing: `PIL/Pillow`, `OpenCV`, `scikit-image`
+- Interfaces gráficas: `Tkinter`
+- Automatizaciones: `schedule`, `pyautogui`, `pywinauto`
+- Big data: `pandas`, `Dask`, `PySpark`
+- Estadística: `numpy`, `seaborn`, `scipy.stats`
+- ML/DL: `scikit-learn`, `tensorflow`, `keras`, `fastai`
+- Cómputo GPU: `cupy`, `numba`, …
