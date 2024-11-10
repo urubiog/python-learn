@@ -2,7 +2,7 @@
 
 # Aprender Python
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Visita la página **[Apuntes de Python](https://personal-uri.notion.site/Python-44b220e98bbe4a019e90c67d7eadc35a)** en la que encontrarás todos los conceptos explicados a modo de resumenes y recursos útiles.
 
 Bienvenido a **Learn Python**, un repositorio dedicado a explorar y dominar los conceptos fundamentales del lenguaje de programación Python. Aquí encontrará una variedad de recursos, ejemplos y ejercicios que le ayudarán en su camino hacia la excelencia en programación.
