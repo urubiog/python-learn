@@ -118,97 +118,89 @@ Aquí tienes una lista de tareas pendientes para seguir mejorando el repositorio
 
 ### Problemas del Mundo Real
 
-Ejercicios basados en situaciones prácticas y aplicables a diversos contextos del día a día.
-
-- ChatGPT
+- [ ] Ejercicios basados en situaciones prácticas y aplicables a diversos contextos del día a día.
 
 ### Desafíos Algorítmicos 
 
-Problemas clásicos de algoritmos que exigen lógica y creatividad para encontrar soluciones óptimas.
-
-- ChatGPT
+- [x] Problemas clásicos de algoritmos que exigen lógica y creatividad para encontrar soluciones óptimas.
 
 ### Evaluación de Código
 
-Análisis de fragmentos de código: predecir salida, predecir valor, posibles errores.
-
-- ChatGPT
+- [ ] Análisis de fragmentos de código: predecir salida, predecir valor, posibles errores.
 
 ### Preguntas Simples de Python
     
-Ejercicios breves y directos para evaluar conocimientos fundamentales y conceptos clave.
-
-- ChatGPT
+- [ ] Ejercicios breves y directos para evaluar conocimientos fundamentales y conceptos clave.
 
 ## Componentes ⚙️
   
-- Calculadora
-- Validador regex (emails, links, ...)
-- Generador de contraseñas seguras 
-- Conversor de unidades 
-- Procesador de texto 
-- Analizador de CSVs
-- Buscador de clima 
-- Servidor web local
-- Scraper básico 
-- Enviador automático de correos 
-- Conversor de imágenes 
-- Red neuronal 
-- Simulador de física 2D/3D
+- [ ] Calculadora
+- [ ] Validador regex (emails, links, ...)
+- [ ] Generador de contraseñas seguras 
+- [ ] Conversor de unidades 
+- [ ] Procesador de texto 
+- [ ] Analizador de CSVs
+- [ ] Buscador de clima 
+- [ ] Servidor web local
+- [ ] Scraper básico 
+- [ ] Enviador automático de correos 
+- [ ] Conversor de imágenes 
+- [ ] Red neuronal 
+- [ ] Simulador de física 2D/3D
 
 ## Librerías 📚
 
-- `typing` – Tipado estático para claridad y mantenimiento.
-- `collections` – Clases de estructuras de datos avanzadas (indispensable).
-- `functools` – Decoradores y optimización funcional.
-- `itertools` – Herramientas para trabajar con iterables.
-- `math` – Operaciones matemáticas fundamentales.
-- `random` – Generación de números aleatorios, muy común.
-- `decimal` – Cálculos precisos en contextos financieros.
-- `fractions` – Representación exacta de fracciones.
-- `csv` – Manejo de archivos tabulares (importación/exportación).
-- `re` – Manipulación avanzada de cadenas con expresiones regulares.
-- `json` – Serialización y deserialización de datos JSON.
-- `os` – Operaciones fundamentales con el sistema operativo.
-- `pathlib` – Manejo moderno y elegante de rutas de archivos.
-- `shutil` – Copiado y manipulación de archivos.
-- `sys` – Interacción con el entorno de ejecución de Python.
-- `logging` – Registro estructurado de eventos y errores.
-- `traceback` – Inspección y depuración de errores.
-- `threading` – Programación concurrente con hilos.
-- `unittest` – Creación de pruebas unitarias estándar.
-- `pytest` – Framework robusto para testing.
-- `numpy` – Operaciones con arrays y álgebra lineal (imprescindible en ciencia de datos).
-- `pandas` – Manipulación avanzada de datos tabulares.
-- `matplotlib` – Gráficos estáticos y visualización de datos.
-- `asyncio` – Programación asincrónica moderna.
-- `operator` – Operadores como funciones reutilizables.
-- `queue` – Manejo de estructuras de datos concurrentes.
-- `heapq` – Operaciones eficientes sobre colas de prioridad.
-- `inspect` – Introspección de clases y funciones en tiempo de ejecución.
-- `contextlib` – Gestión avanzada de contextos personalizados.
-- `pdb` – Depuración paso a paso interactiva.
-- `abc` – Creación de clases abstractas.
-- `tracemalloc` – Rastreo del uso de memoria.
-- `gc` – Gestión avanzada del recolector de basura.
-- `subprocess` – Ejecución de comandos externos desde Python.
-- `sympy` – Álgebra simbólica y cálculo matemático avanzado.
-- `tensorflow` – Redes neuronales y aprendizaje profundo.
-- `PyTorch` – Aprendizaje profundo flexible.
-- `sklearn` – Modelado y aprendizaje automático práctico.
-- `SQLAlchemy` – ORM para bases de datos relacionales.
-- `pygrad` – Biblioteca para cálculo automático de gradientes.
-- `setuptools` – Gestión de paquetes y distribución.
-- `pkgutil` – Inspección y manipulación de paquetes.
-- `importlib` – Importación dinámica de módulos.
-- `toml` – Análisis y escritura de archivos TOML.
-- `jsonschema` – Validación de estructuras JSON.
-- `zipfile` – Compresión y descompresión de archivos ZIP.
-- `lzma` – Compresión eficiente de archivos.
-- `tarfile` – Manejo de archivos TAR.
-- `keyword` – Palabras clave reservadas en Python.
-- `pytypes` – Herramientas de anotación y validación de tipos.
-- `array` – Manipulación de arrays de bajo nivel.
+- [ ] `typing` – Tipado estático para claridad y mantenimiento.
+- [ ] `collections` – Clases de estructuras de datos avanzadas (indispensable).
+- [ ] `functools` – Decoradores y optimización funcional.
+- [ ] `itertools` – Herramientas para trabajar con iterables.
+- [ ] `math` – Operaciones matemáticas fundamentales.
+- [ ] `random` – Generación de números aleatorios, muy común.
+- [ ] `decimal` – Cálculos precisos en contextos financieros.
+- [ ] `fractions` – Representación exacta de fracciones.
+- [ ] `csv` – Manejo de archivos tabulares (importación/exportación).
+- [ ] `re` – Manipulación avanzada de cadenas con expresiones regulares.
+- [ ] `json` – Serialización y deserialización de datos JSON.
+- [ ] `os` – Operaciones fundamentales con el sistema operativo.
+- [ ] `pathlib` – Manejo moderno y elegante de rutas de archivos.
+- [ ] `shutil` – Copiado y manipulación de archivos.
+- [ ] `sys` – Interacción con el entorno de ejecución de Python.
+- [ ] `logging` – Registro estructurado de eventos y errores.
+- [ ] `traceback` – Inspección y depuración de errores.
+- [ ] `threading` – Programación concurrente con hilos.
+- [ ] `unittest` – Creación de pruebas unitarias estándar.
+- [ ] `pytest` – Framework robusto para testing.
+- [ ] `numpy` – Operaciones con arrays y álgebra lineal (imprescindible en ciencia de datos).
+- [ ] `pandas` – Manipulación avanzada de datos tabulares.
+- [ ] `matplotlib` – Gráficos estáticos y visualización de datos.
+- [ ] `asyncio` – Programación asincrónica moderna.
+- [ ] `operator` – Operadores como funciones reutilizables.
+- [ ] `queue` – Manejo de estructuras de datos concurrentes.
+- [ ] `heapq` – Operaciones eficientes sobre colas de prioridad.
+- [ ] `inspect` – Introspección de clases y funciones en tiempo de ejecución.
+- [ ] `contextlib` – Gestión avanzada de contextos personalizados.
+- [ ] `pdb` – Depuración paso a paso interactiva.
+- [ ] `abc` – Creación de clases abstractas.
+- [ ] `tracemalloc` – Rastreo del uso de memoria.
+- [ ] `gc` – Gestión avanzada del recolector de basura.
+- [ ] `subprocess` – Ejecución de comandos externos desde Python.
+- [ ] `sympy` – Álgebra simbólica y cálculo matemático avanzado.
+- [ ] `tensorflow` – Redes neuronales y aprendizaje profundo.
+- [ ] `PyTorch` – Aprendizaje profundo flexible.
+- [ ] `sklearn` – Modelado y aprendizaje automático práctico.
+- [ ] `SQLAlchemy` – ORM para bases de datos relacionales.
+- [ ] `pygrad` – Biblioteca para cálculo automático de gradientes.
+- [ ] `setuptools` – Gestión de paquetes y distribución.
+- [ ] `pkgutil` – Inspección y manipulación de paquetes.
+- [ ] `importlib` – Importación dinámica de módulos.
+- [ ] `toml` – Análisis y escritura de archivos TOML.
+- [ ] `jsonschema` – Validación de estructuras JSON.
+- [ ] `zipfile` – Compresión y descompresión de archivos ZIP.
+- [ ] `lzma` – Compresión eficiente de archivos.
+- [ ] `tarfile` – Manejo de archivos TAR.
+- [ ] `keyword` – Palabras clave reservadas en Python.
+- [ ] `pytypes` – Herramientas de anotación y validación de tipos.
+- [ ] `array` – Manipulación de arrays de bajo nivel.
 
 ## Herramientas 🔨
 
@@ -222,16 +214,16 @@ Ejercicios breves y directos para evaluar conocimientos fundamentales y concepto
 
 ## Módulos 📦
 
-- Criptografía: `cryptography`, `hashlib`, `pycryptodome`
-- Databases: `sqlite3`, `pymongo`, `SQLAlchemy`
-- Optimización: `cProfile`, **`threading` ,** `multiprocessing`
-- Redes: `socket`, `requests`, `urllib`
-- Web: `django`, `flask`, `fastapi`, `pickle`
-- Web Scraping: `beautifulsoup4`, `lxml`
-- Image processing: `PIL/Pillow`, `OpenCV`, `scikit-image`
-- Interfaces gráficas: `Tkinter`
-- Automatizaciones: `schedule`, `pyautogui`, `pywinauto`
-- Big data: `pandas`, `Dask`, `PySpark`
-- Estadística: `numpy`, `seaborn`, `scipy.stats`
-- ML/DL: `scikit-learn`, `tensorflow`, `keras`, `fastai`
-- Cómputo GPU: `cupy`, `numba`, …
+- [ ] Criptografía: `cryptography`, `hashlib`, `pycryptodome`
+- [ ] Databases: `sqlite3`, `pymongo`, `SQLAlchemy`
+- [ ] Optimización: `cProfile`, **`threading` ,** `multiprocessing`
+- [ ] Redes: `socket`, `requests`, `urllib`
+- [ ] Web: `django`, `flask`, `fastapi`, `pickle`
+- [ ] Web Scraping: `beautifulsoup4`, `lxml`
+- [ ] Image processing: `PIL/Pillow`, `OpenCV`, `scikit-image`
+- [ ] Interfaces gráficas: `Tkinter`
+- [ ] Automatizaciones: `schedule`, `pyautogui`, `pywinauto`
+- [ ] Big data: `pandas`, `Dask`, `PySpark`
+- [ ] Estadística: `numpy`, `seaborn`, `scipy.stats`
+- [ ] ML/DL: `scikit-learn`, `tensorflow`, `keras`, `fastai`
+- [ ] Cómputo GPU: `cupy`, `numba`, …
