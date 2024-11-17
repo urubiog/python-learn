@@ -74,11 +74,11 @@ Aquí tienes una lista de tareas pendientes para seguir mejorando el repositorio
 - [x] **Métodos especiales**
   - Uso de métodos mágicos para sobrecargar operadores y crear comportamientos personalizados en clases.
 
-- [ ] **PEP (Python Enhancement Proposals)**
-  - Explicación sobre las principales PEP, como PEP 8 (estilo de código) y PEP 20 (Zen de Python).
-
 - [ ] **Documentación de código**
   - Uso de herramientas para documentar el código, como Sphinx, y la importancia de los docstrings.
+
+- [x] **PEP (Python Enhancement Proposals)**
+  - Explicación sobre las principales PEP, como PEP 8 (estilo de código) y PEP 20 (Zen de Python).
 
 - [x] **Iteradores y generadores**
   - Creación y uso de generadores con `yield` y manejo eficiente de grandes volúmenes de datos.
@@ -126,11 +126,11 @@ Ejercicios basados en situaciones prácticas y aplicables a diversos contextos d
 
 Problemas clásicos de algoritmos que exigen lógica y creatividad para encontrar soluciones óptimas.
 
-- LeetCode
+- ChatGPT
 
 ### Evaluación de Código
 
-Análisis de fragmentos de código: detectar errores, mejorar eficiencia o refactorizar.
+Análisis de fragmentos de código: predecir salida, predecir valor, posibles errores.
 
 - ChatGPT
 
