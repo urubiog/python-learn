@@ -132,22 +132,6 @@ Aquí tienes una lista de tareas pendientes para seguir mejorando el repositorio
     
 - [ ] Ejercicios breves y directos para evaluar conocimientos fundamentales y conceptos clave.
 
-## Componentes ⚙️
-  
-- [ ] Calculadora
-- [ ] Validador regex (emails, links, ...)
-- [ ] Generador de contraseñas seguras 
-- [ ] Conversor de unidades 
-- [ ] Procesador de texto 
-- [ ] Analizador de CSVs
-- [ ] Buscador de clima 
-- [ ] Servidor web local
-- [ ] Scraper básico 
-- [ ] Enviador automático de correos 
-- [ ] Conversor de imágenes 
-- [ ] Red neuronal 
-- [ ] Simulador de física 2D/3D
-
 ## Librerías 📚
 
 - [ ] `typing` – Tipado estático para claridad y mantenimiento.
@@ -201,6 +185,22 @@ Aquí tienes una lista de tareas pendientes para seguir mejorando el repositorio
 - [ ] `keyword` – Palabras clave reservadas en Python.
 - [ ] `pytypes` – Herramientas de anotación y validación de tipos.
 - [ ] `array` – Manipulación de arrays de bajo nivel.
+
+## Componentes ⚙️
+  
+- [ ] Calculadora
+- [ ] Validador regex (emails, links, ...)
+- [ ] Generador de contraseñas seguras 
+- [ ] Conversor de unidades 
+- [ ] Procesador de texto 
+- [ ] Analizador de CSVs
+- [ ] Buscador de clima 
+- [ ] Servidor web local
+- [ ] Scraper básico 
+- [ ] Enviador automático de correos 
+- [ ] Conversor de imágenes 
+- [ ] Red neuronal 
+- [ ] Simulador de física 2D/3D
 
 ## Herramientas 🔨
 

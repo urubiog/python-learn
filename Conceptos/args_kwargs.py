@@ -2,7 +2,8 @@
 # pass a variable number of arguments to functions with a clarity and versatility that is
 # unmatched in Python. Let us learn how to handle arbitrary argument lists with grace.
 
-print("Time for *args and **kwargs!")
+print(
+    "Time for *args and **kwargs!")
 
 
 # *args: Allows a function to accept a variable number of positional arguments.
