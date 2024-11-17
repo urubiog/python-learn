@@ -1,10 +1,11 @@
 # structures/fenwick_tree.py
 
+
 class FenwickTree:
     def __init__(self, size: int) -> None:
         """
         Inicializa un Fenwick Tree (Binary Indexed Tree) de tamaño 'size'.
-        
+
         Parámetros:
         - size: Tamaño de la estructura Fenwick Tree.
         """
@@ -14,7 +15,7 @@ class FenwickTree:
     def update(self, index: int, delta: int) -> None:
         """
         Actualiza el valor en el índice 'index' sumando el valor 'delta'.
-        
+
         Parámetros:
         - index: Índice donde se realizará la actualización (1 basado).
         - delta: El valor a agregar en el índice especificado.
@@ -26,10 +27,10 @@ class FenwickTree:
     def query(self, index: int) -> int:
         """
         Retorna la suma de los valores desde el inicio (índice 1) hasta el índice 'index'.
-        
+
         Parámetros:
         - index: Índice hasta donde se calculará la suma (1 basado).
-        
+
         Retorna:
         - La suma acumulada de los valores desde el índice 1 hasta el índice 'index'.
         """
@@ -42,11 +43,11 @@ class FenwickTree:
     def range_query(self, left: int, right: int) -> int:
         """
         Retorna la suma de los valores entre los índices 'left' y 'right'.
-        
+
         Parámetros:
         - left: Índice de inicio del rango (1 basado).
         - right: Índice final del rango (1 basado).
-        
+
         Retorna:
         - La suma de los valores entre 'left' y 'right'.
         """
@@ -91,4 +92,3 @@ def obtener_valor_en_indice(fenwick_tree: FenwickTree, index: int) -> int:
     Encuentra y devuelve el valor almacenado en el índice 'index' del Fenwick Tree.
     """
     pass
-

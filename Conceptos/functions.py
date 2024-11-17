@@ -309,7 +309,8 @@ print(squares)  # Output: [1, 4, 9]
 # [Exercise] Create a recursive function to compute the n-th fibonacci's series number
 
 
-def fibo(n): ...
+def fibo(n):
+    ...
 
 
 print(fibo(30))  # 832040

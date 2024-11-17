@@ -1,5 +1,6 @@
 # structures/trie.py
 
+
 class TrieNode:
     def __init__(self) -> None:
         """
@@ -20,7 +21,7 @@ class Trie:
     def insert(self, word: str) -> None:
         """
         Inserta una palabra en el trie.
-        
+
         Parámetros:
         - word: La palabra a insertar en el trie.
         """
@@ -34,10 +35,10 @@ class Trie:
     def search(self, word: str) -> bool:
         """
         Busca una palabra en el trie.
-        
+
         Parámetros:
         - word: La palabra a buscar en el trie.
-        
+
         Retorna:
         - True si la palabra existe en el trie, False si no.
         """
@@ -51,10 +52,10 @@ class Trie:
     def starts_with(self, prefix: str) -> bool:
         """
         Verifica si existe alguna palabra en el trie que comience con el prefijo dado.
-        
+
         Parámetros:
         - prefix: El prefijo a verificar.
-        
+
         Retorna:
         - True si el trie contiene alguna palabra que comience con el prefijo, False si no.
         """
@@ -68,10 +69,10 @@ class Trie:
     def delete(self, word: str) -> bool:
         """
         Elimina una palabra del trie si existe.
-        
+
         Parámetros:
         - word: La palabra a eliminar.
-        
+
         Retorna:
         - True si la palabra se eliminó exitosamente, False si no.
         """
@@ -80,12 +81,12 @@ class Trie:
     def _delete(self, node: TrieNode, word: str, index: int) -> bool:
         """
         Elimina recursivamente una palabra del trie.
-        
+
         Parámetros:
         - node: El nodo actual.
         - word: La palabra a eliminar.
         - index: El índice de la letra actual.
-        
+
         Retorna:
         - True si la palabra se eliminó exitosamente, False si no.
         """
@@ -93,24 +94,26 @@ class Trie:
             if not node.is_end_of_word:
                 return False  # La palabra no existe.
             node.is_end_of_word = False
-            return len(node.children) == 0  # El nodo puede ser eliminado si no tiene hijos.
+            return (
+                len(node.children) == 0
+            )  # El nodo puede ser eliminado si no tiene hijos.
 
         char = word[index]
         if char not in node.children:
             return False  # La palabra no existe.
-        
+
         can_delete = self._delete(node.children[char], word, index + 1)
-        
+
         if can_delete:
             del node.children[char]
             return len(node.children) == 0 and not node.is_end_of_word
-        
+
         return False
 
     def get_words(self) -> list[str]:
         """
         Devuelve una lista de todas las palabras almacenadas en el trie.
-        
+
         Retorna:
         - Una lista con todas las palabras almacenadas en el trie.
         """
@@ -121,7 +124,7 @@ class Trie:
     def _get_words(self, node: TrieNode, current_word: str, words: list[str]) -> None:
         """
         Obtiene recursivamente todas las palabras en el trie.
-        
+
         Parámetros:
         - node: El nodo actual.
         - current_word: La palabra construida hasta el momento.
@@ -129,7 +132,7 @@ class Trie:
         """
         if node.is_end_of_word:
             words.append(current_word)
-        
+
         for char, child_node in node.children.items():
             self._get_words(child_node, current_word + char, words)
 
@@ -138,7 +141,7 @@ class Trie:
 def insertar_palabra_trie(trie: Trie, word: str) -> None:
     """
     Inserta una palabra en el trie.
-    
+
     Parámetros:
     - trie: El trie en el que se insertará la palabra.
     - word: La palabra a insertar.
@@ -150,11 +153,11 @@ def insertar_palabra_trie(trie: Trie, word: str) -> None:
 def buscar_palabra_trie(trie: Trie, word: str) -> bool:
     """
     Busca una palabra en el trie.
-    
+
     Parámetros:
     - trie: El trie en el que se buscará la palabra.
     - word: La palabra a buscar.
-    
+
     Retorna:
     - True si la palabra se encuentra en el trie, False si no.
     """
@@ -165,11 +168,11 @@ def buscar_palabra_trie(trie: Trie, word: str) -> bool:
 def verificar_prefijo_trie(trie: Trie, prefix: str) -> bool:
     """
     Verifica si hay alguna palabra en el trie que comience con el prefijo dado.
-    
+
     Parámetros:
     - trie: El trie donde se buscará el prefijo.
     - prefix: El prefijo a verificar.
-    
+
     Retorna:
     - True si el prefijo existe en el trie, False si no.
     """
@@ -180,11 +183,11 @@ def verificar_prefijo_trie(trie: Trie, prefix: str) -> bool:
 def eliminar_palabra_trie(trie: Trie, word: str) -> bool:
     """
     Elimina una palabra del trie.
-    
+
     Parámetros:
     - trie: El trie de donde se eliminará la palabra.
     - word: La palabra a eliminar.
-    
+
     Retorna:
     - True si la palabra se eliminó con éxito, False si no se pudo eliminar.
     """
@@ -195,12 +198,11 @@ def eliminar_palabra_trie(trie: Trie, word: str) -> bool:
 def obtener_palabras_trie(trie: Trie) -> list[str]:
     """
     Obtiene todas las palabras almacenadas en el trie.
-    
+
     Parámetros:
     - trie: El trie del que se extraerán las palabras.
-    
+
     Retorna:
     - Una lista con todas las palabras en el trie.
     """
     pass
-

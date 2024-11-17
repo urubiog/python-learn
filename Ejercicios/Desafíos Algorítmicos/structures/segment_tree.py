@@ -1,10 +1,11 @@
 # structures/segment_tree.py
 
+
 class SegmentTree:
     def __init__(self, data: list[int]) -> None:
         """
         Inicializa el Segment Tree utilizando una lista de datos.
-        
+
         Parámetros:
         - data: Una lista de enteros sobre la cual construir el árbol de segmentos.
         """
@@ -15,7 +16,7 @@ class SegmentTree:
     def build(self, data: list[int]) -> None:
         """
         Construye el Segment Tree basado en los datos proporcionados.
-        
+
         Parámetros:
         - data: La lista de enteros sobre la cual construir el árbol.
         """
@@ -30,7 +31,7 @@ class SegmentTree:
     def update(self, idx: int, value: int) -> None:
         """
         Actualiza el valor en el índice 'idx' del segmento con un nuevo valor.
-        
+
         Parámetros:
         - idx: El índice del dato a actualizar.
         - value: El nuevo valor para ese índice.
@@ -46,11 +47,11 @@ class SegmentTree:
     def query(self, left: int, right: int) -> int:
         """
         Consulta la suma de los elementos entre los índices 'left' y 'right' (inclusive).
-        
+
         Parámetros:
         - left: El índice izquierdo (inclusive) de la consulta.
         - right: El índice derecho (inclusive) de la consulta.
-        
+
         Retorna:
         - La suma de los elementos en el rango [left, right].
         """
@@ -76,24 +77,26 @@ class SegmentTree:
         """
         print(self.tree)
 
+
 # Ejercicio 1: Construir un Segment Tree a partir de una lista
 def construir_segment_tree(data: list[int]) -> SegmentTree:
     """
     Construye un Segment Tree a partir de los datos proporcionados.
-    
+
     Parámetros:
     - data: La lista de enteros sobre la cual construir el árbol.
-    
+
     Retorna:
     - El árbol de segmentos construido.
     """
     pass
 
+
 # Ejercicio 2: Actualizar un valor en el Segment Tree
 def actualizar_segment_tree(segment_tree: SegmentTree, idx: int, value: int) -> None:
     """
     Actualiza el valor en el índice dado del árbol de segmentos con un nuevo valor.
-    
+
     Parámetros:
     - segment_tree: El Segment Tree sobre el cual hacer la actualización.
     - idx: El índice que se debe actualizar.
@@ -101,28 +104,29 @@ def actualizar_segment_tree(segment_tree: SegmentTree, idx: int, value: int) -> 
     """
     pass
 
+
 # Ejercicio 3: Consultar el rango de un Segment Tree
 def consultar_segment_tree(segment_tree: SegmentTree, left: int, right: int) -> int:
     """
     Consulta la suma de los valores en el rango [left, right] del Segment Tree.
-    
+
     Parámetros:
     - segment_tree: El Segment Tree sobre el cual hacer la consulta.
     - left: El índice izquierdo (inclusive) de la consulta.
     - right: El índice derecho (inclusive) de la consulta.
-    
+
     Retorna:
     - La suma de los valores en el rango [left, right].
     """
     pass
 
+
 # Ejercicio 4: Mostrar el Segment Tree
 def mostrar_segment_tree(segment_tree: SegmentTree) -> None:
     """
     Muestra el contenido del Segment Tree.
-    
+
     Parámetros:
     - segment_tree: El Segment Tree a mostrar.
     """
     pass
-

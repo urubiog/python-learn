@@ -1,5 +1,6 @@
 # techniques/dynamic_programming.py
 
+
 # Ejercicio 1: Problema de la mochila (0/1 Knapsack)
 def mochila(capacidad: int, pesos: list[int], valores: list[int], n: int) -> int:
     """
@@ -160,4 +161,3 @@ def cambio_monedas(monedas: list[int], cantidad: int) -> int:
     - El número mínimo de monedas necesarias para alcanzar la cantidad, o -1 si no es posible.
     """
     pass
-

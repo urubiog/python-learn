@@ -1,10 +1,11 @@
 # structures/tree.py
 
+
 class Node:
     def __init__(self, val: int | float) -> None:
         """
         Inicializa un nodo con un valor dado y dos hijos (izquierda y derecha) nulos.
-        
+
         Parámetros:
         - val: El valor del nodo.
         """
@@ -23,7 +24,7 @@ class BinaryTree:
     def insert(self, val: int | float) -> None:
         """
         Inserta un nuevo nodo en el árbol binario.
-        
+
         Parámetros:
         - val: El valor del nodo a insertar.
         """
@@ -35,7 +36,7 @@ class BinaryTree:
     def _insert(self, node: Node, val: int | float) -> None:
         """
         Inserta recursivamente un nuevo nodo en el árbol binario siguiendo el criterio de orden.
-        
+
         Parámetros:
         - node: El nodo actual en el árbol.
         - val: El valor del nodo a insertar.
@@ -54,10 +55,10 @@ class BinaryTree:
     def search(self, val: int | float) -> bool:
         """
         Busca un valor en el árbol binario.
-        
+
         Parámetros:
         - val: El valor a buscar.
-        
+
         Retorna:
         - True si el valor está presente en el árbol, False si no lo está.
         """
@@ -66,11 +67,11 @@ class BinaryTree:
     def _search(self, node: Node, val: int | float) -> bool:
         """
         Busca recursivamente un valor en el árbol binario.
-        
+
         Parámetros:
         - node: El nodo actual.
         - val: El valor a buscar.
-        
+
         Retorna:
         - True si el valor se encuentra, False si no.
         """
@@ -86,7 +87,7 @@ class BinaryTree:
     def inorder(self) -> list[int | float]:
         """
         Realiza un recorrido en orden (inorder) en el árbol binario y devuelve una lista de valores.
-        
+
         Retorna:
         - Una lista de los valores de los nodos en orden ascendente.
         """
@@ -97,7 +98,7 @@ class BinaryTree:
     def _inorder(self, node: Node, result: list[int | float]) -> None:
         """
         Realiza un recorrido recursivo en orden (inorder) en el árbol binario.
-        
+
         Parámetros:
         - node: El nodo actual.
         - result: Lista donde se guardan los valores.
@@ -110,7 +111,7 @@ class BinaryTree:
     def preorder(self) -> list[int | float]:
         """
         Realiza un recorrido preorden (preorder) en el árbol binario y devuelve una lista de valores.
-        
+
         Retorna:
         - Una lista de los valores de los nodos en preorden.
         """
@@ -121,7 +122,7 @@ class BinaryTree:
     def _preorder(self, node: Node, result: list[int | float]) -> None:
         """
         Realiza un recorrido recursivo preorden (preorder) en el árbol binario.
-        
+
         Parámetros:
         - node: El nodo actual.
         - result: Lista donde se guardan los valores.
@@ -134,7 +135,7 @@ class BinaryTree:
     def postorder(self) -> list[int | float]:
         """
         Realiza un recorrido postorden (postorder) en el árbol binario y devuelve una lista de valores.
-        
+
         Retorna:
         - Una lista de los valores de los nodos en postorden.
         """
@@ -145,7 +146,7 @@ class BinaryTree:
     def _postorder(self, node: Node, result: list[int | float]) -> None:
         """
         Realiza un recorrido recursivo postorden (postorder) en el árbol binario.
-        
+
         Parámetros:
         - node: El nodo actual.
         - result: Lista donde se guardan los valores.
@@ -158,7 +159,7 @@ class BinaryTree:
     def height(self) -> int:
         """
         Devuelve la altura del árbol binario.
-        
+
         Retorna:
         - La altura del árbol.
         """
@@ -167,10 +168,10 @@ class BinaryTree:
     def _height(self, node: Node) -> int:
         """
         Calcula la altura recursiva del árbol binario.
-        
+
         Parámetros:
         - node: El nodo actual.
-        
+
         Retorna:
         - La altura del nodo.
         """
@@ -185,10 +186,10 @@ class BinaryTree:
 def insertar_nodo_arbol(val: int | float) -> BinaryTree:
     """
     Crea un árbol binario e inserta un nodo en el árbol.
-    
+
     Parámetros:
     - val: El valor a insertar.
-    
+
     Retorna:
     - El árbol con el nodo insertado.
     """
@@ -199,11 +200,11 @@ def insertar_nodo_arbol(val: int | float) -> BinaryTree:
 def buscar_valor_arbol(arbol: BinaryTree, val: int | float) -> bool:
     """
     Busca un valor en un árbol binario.
-    
+
     Parámetros:
     - arbol: El árbol donde se realizará la búsqueda.
     - val: El valor a buscar.
-    
+
     Retorna:
     - True si el valor se encuentra en el árbol, False si no.
     """
@@ -214,10 +215,10 @@ def buscar_valor_arbol(arbol: BinaryTree, val: int | float) -> bool:
 def recorrido_inorder(arbol: BinaryTree) -> list[int | float]:
     """
     Realiza un recorrido en orden del árbol binario.
-    
+
     Parámetros:
     - arbol: El árbol donde se realizará el recorrido.
-    
+
     Retorna:
     - Una lista con los valores en orden ascendente.
     """
@@ -228,10 +229,10 @@ def recorrido_inorder(arbol: BinaryTree) -> list[int | float]:
 def recorrido_preorder(arbol: BinaryTree) -> list[int | float]:
     """
     Realiza un recorrido preorden del árbol binario.
-    
+
     Parámetros:
     - arbol: El árbol donde se realizará el recorrido.
-    
+
     Retorna:
     - Una lista con los valores en preorden.
     """
@@ -242,10 +243,10 @@ def recorrido_preorder(arbol: BinaryTree) -> list[int | float]:
 def recorrido_postorder(arbol: BinaryTree) -> list[int | float]:
     """
     Realiza un recorrido postorden del árbol binario.
-    
+
     Parámetros:
     - arbol: El árbol donde se realizará el recorrido.
-    
+
     Retorna:
     - Una lista con los valores en postorden.
     """
@@ -256,12 +257,11 @@ def recorrido_postorder(arbol: BinaryTree) -> list[int | float]:
 def calcular_altura_arbol(arbol: BinaryTree) -> int:
     """
     Calcula la altura de un árbol binario.
-    
+
     Parámetros:
     - arbol: El árbol binario.
-    
+
     Retorna:
     - La altura del árbol.
     """
     pass
-

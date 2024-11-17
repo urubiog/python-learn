@@ -1,10 +1,11 @@
 # structures/union_find.py
 
+
 class UnionFind:
     def __init__(self, size: int) -> None:
         """
         Inicializa una estructura de Union-Find con un número de elementos determinado.
-        
+
         Parámetros:
         - size: El número de elementos en el conjunto.
         """
@@ -15,10 +16,10 @@ class UnionFind:
         """
         Encuentra el representante del conjunto al que pertenece el elemento x, aplicando
         compresión de caminos para optimizar futuras búsquedas.
-        
+
         Parámetros:
         - x: El elemento del cual se busca el representante.
-        
+
         Retorna:
         - El representante del conjunto al que pertenece x.
         """
@@ -30,7 +31,7 @@ class UnionFind:
         """
         Une los conjuntos que contienen a los elementos x e y, utilizando la técnica de
         unión por rango para mantener la estructura equilibrada.
-        
+
         Parámetros:
         - x: Un elemento del primer conjunto.
         - y: Un elemento del segundo conjunto.
@@ -51,11 +52,11 @@ class UnionFind:
     def connected(self, x: int, y: int) -> bool:
         """
         Verifica si los elementos x e y pertenecen al mismo conjunto.
-        
+
         Parámetros:
         - x: El primer elemento.
         - y: El segundo elemento.
-        
+
         Retorna:
         - True si x e y pertenecen al mismo conjunto, False si no.
         """
@@ -66,7 +67,7 @@ class UnionFind:
 def unir_conjuntos(uf: UnionFind, x: int, y: int) -> None:
     """
     Une los conjuntos que contienen los elementos x e y.
-    
+
     Parámetros:
     - uf: La instancia de UnionFind.
     - x: Un elemento del primer conjunto.
@@ -79,12 +80,12 @@ def unir_conjuntos(uf: UnionFind, x: int, y: int) -> None:
 def verificar_conexion(uf: UnionFind, x: int, y: int) -> bool:
     """
     Verifica si los elementos x e y pertenecen al mismo conjunto.
-    
+
     Parámetros:
     - uf: La instancia de UnionFind.
     - x: El primer elemento.
     - y: El segundo elemento.
-    
+
     Retorna:
     - True si x e y están conectados (pertenecen al mismo conjunto), False si no.
     """
@@ -95,11 +96,11 @@ def verificar_conexion(uf: UnionFind, x: int, y: int) -> bool:
 def encontrar_representante(uf: UnionFind, x: int) -> int:
     """
     Encuentra el representante del conjunto al que pertenece el elemento x.
-    
+
     Parámetros:
     - uf: La instancia de UnionFind.
     - x: El elemento del cual se encuentra el representante.
-    
+
     Retorna:
     - El representante del conjunto al que pertenece x.
     """
@@ -110,7 +111,7 @@ def encontrar_representante(uf: UnionFind, x: int) -> int:
 def realizar_uniones(uf: UnionFind, uniones: list[tuple[int, int]]) -> None:
     """
     Realiza múltiples uniones en el conjunto de UnionFind.
-    
+
     Parámetros:
     - uf: La instancia de UnionFind.
     - uniones: Una lista de tuplas donde cada tupla (x, y) representa una unión entre los
@@ -123,12 +124,11 @@ def realizar_uniones(uf: UnionFind, uniones: list[tuple[int, int]]) -> None:
 def conjunto_totalmente_conectado(uf: UnionFind) -> bool:
     """
     Verifica si todos los elementos están en el mismo conjunto.
-    
+
     Parámetros:
     - uf: La instancia de UnionFind.
-    
+
     Retorna:
     - True si todos los elementos pertenecen al mismo conjunto, False si no.
     """
     pass
-

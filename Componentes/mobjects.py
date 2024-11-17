@@ -980,9 +980,9 @@ class Body:
         self._size: List[Union[int, float]] = list(
             verify_length(verify_type(size, tuple), 2)
         )
-        self._color: Tuple[Union[int, float], Union[int, float], Union[int, float]] = (
-            verify_length(verify_type(color, tuple), 3)
-        )
+        self._color: Tuple[
+            Union[int, float], Union[int, float], Union[int, float]
+        ] = verify_length(verify_type(color, tuple), 3)
 
     @property
     def mass(self) -> Union[int, float]:

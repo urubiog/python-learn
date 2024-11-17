@@ -1,5 +1,6 @@
 # techniques/monotonic_stack.py
 
+
 # Ejercicio 1: La siguiente mayor temperatura (Next Greater Element)
 def siguiente_mayor_temperatura(temperaturas: list[int]) -> list[int]:
     """
@@ -104,7 +105,7 @@ def indices_mas_cercanos(arr: list[int]) -> list[int]:
     - arr: Una lista de números enteros.
 
     Retorna:
-    - Una lista de enteros, donde cada elemento es el índice del siguiente número mayor en la lista, 
+    - Una lista de enteros, donde cada elemento es el índice del siguiente número mayor en la lista,
       o -1 si no existe tal número mayor.
     """
     pass
@@ -123,4 +124,3 @@ def validar_parentesis(s: str) -> bool:
     - True si la secuencia de paréntesis es válida, de lo contrario False.
     """
     pass
-

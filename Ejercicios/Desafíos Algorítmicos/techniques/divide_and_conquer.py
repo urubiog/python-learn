@@ -1,10 +1,11 @@
 # techniques/divide_and_conquer.py
 
+
 # Ejercicio 1: Búsqueda binaria
 def busqueda_binaria(arr: list[int], objetivo: int) -> int:
     """
     Resuelve el problema de búsqueda binaria utilizando la técnica de Divide and Conquer.
-    Dado un arreglo ordenado de números, busca la posición de un número objetivo utilizando 
+    Dado un arreglo ordenado de números, busca la posición de un número objetivo utilizando
     el algoritmo de búsqueda binaria, que divide el arreglo en mitades recursivamente.
 
     Parámetros:
@@ -48,7 +49,9 @@ def quick_sort(arr: list[int]) -> list[int]:
 
 
 # Ejercicio 4: Multiplicación de matrices (Strassen)
-def multiplicacion_matrices_strassen(A: list[list[int]], B: list[list[int]]) -> list[list[int]]:
+def multiplicacion_matrices_strassen(
+    A: list[list[int]], B: list[list[int]]
+) -> list[list[int]]:
     """
     Resuelve el problema de multiplicación de matrices utilizando el algoritmo de Strassen, que es una mejora
     del algoritmo tradicional utilizando Divide and Conquer.
@@ -67,7 +70,7 @@ def multiplicacion_matrices_strassen(A: list[list[int]], B: list[list[int]]) -> 
 def k_esimo_menor(arr: list[int], k: int) -> int:
     """
     Encuentra el k-ésimo elemento más pequeño en un arreglo utilizando la técnica de Divide and Conquer.
-    Se puede hacer mediante un algoritmo de particionamiento como Quickselect, que es una versión modificada 
+    Se puede hacer mediante un algoritmo de particionamiento como Quickselect, que es una versión modificada
     de Quick Sort que solo se enfoca en la búsqueda del k-ésimo menor elemento.
 
     Parámetros:
@@ -83,7 +86,7 @@ def k_esimo_menor(arr: list[int], k: int) -> int:
 # Ejercicio 6: Problema de la mediana de dos arreglos ordenados
 def mediana_de_dos_arreglos(arr1: list[int], arr2: list[int]) -> float:
     """
-    Encuentra la mediana de dos arreglos ordenados utilizando Divide and Conquer. 
+    Encuentra la mediana de dos arreglos ordenados utilizando Divide and Conquer.
     El algoritmo busca la mediana en tiempo logarítmico al reducir el tamaño del problema dividiendo ambos arreglos.
 
     Parámetros:
@@ -157,4 +160,3 @@ def busqueda_arbol_binario(arr: list[int], objetivo: int) -> bool:
     - True si el objetivo se encuentra en el árbol, False si no.
     """
     pass
-

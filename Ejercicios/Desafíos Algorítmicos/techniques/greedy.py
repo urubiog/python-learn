@@ -1,5 +1,6 @@
 # techniques/greedy.py
 
+
 # Ejercicio 1: Problema del cambio de monedas (Coin Change Problem - Greedy)
 def cambio_monedas_greedy(monedas: list[int], cantidad: int) -> int:
     """
@@ -35,7 +36,9 @@ def seleccion_actividades(actividades: list[tuple[int, int]]) -> list[tuple[int,
 
 
 # Ejercicio 3: Kruskal (Árbol de expansión mínima - Minimum Spanning Tree)
-def kruskal(vertices: int, aristas: list[tuple[int, int, int]]) -> list[tuple[int, int, int]]:
+def kruskal(
+    vertices: int, aristas: list[tuple[int, int, int]]
+) -> list[tuple[int, int, int]]:
     """
     Resuelve el problema de encontrar el árbol de expansión mínima de un grafo no dirigido utilizando el algoritmo de Kruskal.
     El algoritmo codicioso selecciona las aristas de menor peso, asegurando que no se formen ciclos.
@@ -102,7 +105,9 @@ def mochila_fraccionada(capacidad: int, objetos: list[tuple[int, int]]) -> float
 
 
 # Ejercicio 7: Selección de actividad con el máximo beneficio (Job Sequencing Problem)
-def secuenciacion_trabajos(trabajos: list[tuple[int, int, int]], n: int) -> list[tuple[int, int]]:
+def secuenciacion_trabajos(
+    trabajos: list[tuple[int, int, int]], n: int
+) -> list[tuple[int, int]]:
     """
     Resuelve el problema de secuenciación de trabajos con el máximo beneficio utilizando la estrategia codiciosa.
     Dado un conjunto de trabajos, cada uno con un beneficio y una fecha de vencimiento, selecciona los trabajos
@@ -131,4 +136,3 @@ def seleccion_intervalos(intervalos: list[tuple[int, int]]) -> list[tuple[int, i
     - Una lista de tuplas (inicio, fin) representando los intervalos seleccionados.
     """
     pass
-

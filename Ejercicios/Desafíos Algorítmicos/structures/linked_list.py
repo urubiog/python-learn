@@ -4,6 +4,7 @@ class Node:
         self.val = val
         self.next = next
 
+
 # Ejercicio 1: Crear una lista simplemente enlazada desde un arreglo
 def crear_lista_desde_arreglo(arreglo: list[int]) -> Node:
     """
