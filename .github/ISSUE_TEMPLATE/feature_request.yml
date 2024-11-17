@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest features, propose improvements, discuss new ideas.
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: "Feature description"
+      description: >
+        This could include new topics or improving any existing implementations.
+    validations:
+      required: true
