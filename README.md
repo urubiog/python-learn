@@ -1,6 +1,6 @@
 <img src="./Imgs/python.svg" alt="Python" width="200"/>
 
-# Aprender Python
+# Aprende Python
 
 > [!IMPORTANT]
 > Visita la página **[Apuntes de Python](https://personal-uri.notion.site/Python-44b220e98bbe4a019e90c67d7eadc35a)** en la que encontrarás todos los conceptos explicados a modo de resumenes y recursos útiles.
